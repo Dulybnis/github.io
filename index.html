@@ -1,34 +1,66 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="styles.css">
-  <title>JS Game</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+	<title>My resume</title>
 </head>
+
 <body>
+	<div id="header">
+		<h1>Денис Дулыба</h1>
+		<h2 class="header-title">Начинающий программист Javascript</h2>
+		<p>
+			<a href="mailto:ddn555@yandex.ru">ddn555@yandex.ru</a>, <a href="https://vk.com/id1676626">vk.com</a>
+		</p>
+	</div>
+	<div id="main">
+		<p>Еще в школе я начал увлекаться компьютерами и программрованием. 
+			Закончил Челябинский Государственный Университет по специальности "Радиофизика и компьютерная электроника". 
+			Но после окончания университета пошел работать в продажи. Недавно понял, что продажи не увлекат так сильн, как программирование.
+			С того времени изуаю Javascript, HTML, CSS.
+		</p>
+		<p>Готов к удаленной работе. Есть планы по переезду в Москву</p>
 
+		<h2>Опыт работы</h2>
+		<!-- <br> -->
+		<h3>ООО ТОР</h3>
+		<p>Администратор интернет магазина www.yorket.ru</p>
+		<ul>
+			<li>Доработка, наполнение и поддержание сайта на Битрикс</li>
+			<li>Смена шаблонов</li>
+			<li>Небольшие правки кода</li>
+			<li>Настрока редиректа</li>
+			<li>настрока парсера</li>
+		</ul>
+		<!-- <hr> -->
+		<h3>ООО СДМ</h3>
+		<p>Администратор сайта www.sdm74.pro</p>
+		<ul>
+			<li>Доработка, наполнение и поддержание сайта на Wordpress</li>
+			<li>Небольшие правки кода</li>
+		</ul>
+		<!-- <hr> -->
 
-  <div class="app">
-    <div class="app__header">
-      <h1 id="time-header">Время игры: <span id="time">5.0</span></h1>
-      <h1 id="result-header" class="hide">Ваш результат: <span id="result"></span></h1>
-    </div>
-    <div class="app__content">
-      <button class="btn" id="start">Начать</button>
+		<h2>Образование</h2>
+		<br>
+		<h3>Челябинский Государственный Университет</h3>
+		<p>Физический факультет, Радиофизика и компьютерная электроника, 1999-2006</p>
+		<!-- <hr> -->
 
-      <div class="game" id="game"></div>
-    </div>
-    <div class="app__footer">
-      <div class="input">
-        <label for="game-time">Время игры, (сек)</label>
-        <input type="number" id="game-time" min="5" step="1" value="5">
-      </div>
-    </div>
-  </div>
-  
-
-  <script src="index.js"></script>
+		<h2>Другие навыки и увлечения</h2>
+		<!-- <br> -->
+		<ul>
+			<li>Чтение книг</li>
+			<li>Занятия спортом по методике "тренировка заключенных"</li>
+			<li>Велосипедные прогулки</li>
+			<li>Создание систем</li>
+		</ul>
+		<!-- <hr> -->
+	</div>
+	<div id="footer">
+		<h3>Денис Дулыба</h3>
+		<p>г.Челябинск, ул.Академика Королева, д.27, кв.96. тел.+7 912 406-77-20, <a href="mailto:ddn555@yandex.ru">ddn555@yandex.ru</a></p>
+	</div>
 </body>
-</html>
